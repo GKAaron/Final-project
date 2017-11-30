@@ -1,27 +1,19 @@
-Create a FORK of this repository to store your code, data, and documentation for the final project. Detailed instructions for this assignment are in the course Moodle site.  The reason I'm asking you to fork this empty repository instead of creating a stand-alone repository is that it will be much easier for me and all students in the course to find all of our projects for code review and for grading. You can even get code review from students in the other section of IS590PR this way.
 
-Even though your fork of this repository shall remain public, you'll still need to explicitly add any students on your team as Collaborators in the Settings. That way you can grant them write privileges.
 
-DELETE the lines from TEMPLATE up.
-
-TEMPLATE for your report:
-
-# Title: 
+# Title: Simple Bank Queuing
 
 ## Team Member(s):
-(Note: Don't put your email addresses here (which is public).  If a student wants their NAME hidden as well, due to optional FERPA regulations, they can be listed purely by their GitHub ID).
+Ke Gou
 
 # Monte Carlo Simulation Scenario & Purpose:
-
+Using Monte Carlo Simulation simulates the number of customers for each day in Bank of China in my hometown and the amount of time for each individual affair. Those two simulations will help me to approximately evaluate the average waiting time for customers given a specific amount of counters. Finally, I will try to find out the best amount of counters with respect to both bank and customers 
 ### Hypothesis before running the simulation:
-
+My simulation is trying to figure out an answer to the above question. Thus I don't do any hypothesis.
 ### Simulation's variables of uncertainty
-List and describe your simulation's variables of uncertainty (where you're using pseudo-random number generation). 
-For each such variable, how did you decide the range and which probability distribution to use?  
-Do you think it's a good representation of reality?
+Two main variables. The number of cutomers visiting the bank each day and the amount of time for each individual affair.
 
 ## Instructions on how to use the program:
-
+Using queue to simulate the waiting line.
 
 ## Sources Used:
 
