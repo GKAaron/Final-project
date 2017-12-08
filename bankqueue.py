@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 each_hour_quan = np.zeros(8,'int64')
 waitingtime_each_hour = np.zeros(8,'float64')
-for k in range(100):
+for k in range(300):
     number_persons = person.get_number_persons()
     person_queue = person.init_prepareing_queue(number_persons)
     queue_line = queue_.Queue_()
@@ -40,7 +40,7 @@ for k in range(100):
 waitingtime_each_hour /= each_hour_quan
 plt.plot(range(9,17),waitingtime_each_hour)
 plt.title("The average waiting time during a day")
-plt.show()
 plt.savefig('The average waiting time during a day')
+plt.show()
 
 
